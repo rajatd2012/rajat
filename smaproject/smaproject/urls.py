@@ -8,5 +8,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
 	url(r'^learn/', include('learn.urls')),
+	url(r'^plotma/', include('plotma.urls')),
 
 	)
